@@ -31,7 +31,10 @@ h1{
     height: 100%;
 }
 
-.flip_horiz{
-    transform: scaleX(-1);
+#left_palm{
+    transform: scale(0.7,0.7);
 }
 
+#right_palm{
+    transform: scale(-0.7,0.7)
+}
