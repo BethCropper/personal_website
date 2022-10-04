@@ -31,5 +31,7 @@ h1{
     height: 100%;
 }
 
-
+.flip_horiz{
+    transform: scaleX(-1);
+}
 
