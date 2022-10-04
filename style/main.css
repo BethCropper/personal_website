@@ -4,6 +4,32 @@
     box-sizing: border-box;
 }
 
-.description {
-    color:red
+body{
+    font-family:'Trebuchet MS';/*, Arial, sans-serif'*/
+    color:#fffb96;
+    background-image: linear-gradient( #ff71ce, #b961ff);
 }
+
+h1{
+    font-family:'Times New Roman';/*, Times, serif*/
+}
+
+.description {
+    color:#01cdfe
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 95%;
+    overflow: visible;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+
