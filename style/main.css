@@ -14,27 +14,35 @@ h1{
     font-family:'Times New Roman';/*, Times, serif*/
 }
 
+img{
+    width: 100%;
+}
+
+
 .description {
     color:#01cdfe
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 95%;
-    overflow: visible;
+
+.three_photo_flex {
+    display: flex;
+    padding:0%;
+    align-items: center;
+    background-color: #01cdfe;
 }
 
-.flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
+.flex_centre{
+    flex: 1;
+}
+
+.flex_side{
+    flex: 1;
 }
 
 #left_palm{
-    transform: scale(0.7,0.7);
+    transform: scale(1,1);
 }
 
 #right_palm{
-    transform: scale(-0.7,0.7)
+    transform: scale(-1,1); 
 }
