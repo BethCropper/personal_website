@@ -380,7 +380,12 @@ body{
 }
 
 h1{
-    font-family:'Times New Roman';/*, Times, serif*/
+    font-family: 'Audiowide';font-size: 65px;
+}
+
+h2{
+    font-family: 'Arizonia';font-size: 25px;
+    padding: 1%;
 }
 
 img{
