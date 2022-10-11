@@ -401,18 +401,20 @@ img{
     font-family:'Courier'
 }
 
-
-.three_photo_flex {
+.flex_env{
     display: flex;
     padding:0%;
     align-items: center;
+}
+
+.three_photo_flex {
     background-color: #01cdfe;
 }
 
-.two_photo_flex {
+.navigation_bar{
     display: flex;
     padding:0%;
-    align-items: center;
+    align-items: center;    
 }
 
 .flex_one{
@@ -421,6 +423,10 @@ img{
 
 .flex_two{
     flex: 2;
+}
+
+.navbar_item{
+    text-align: center;
 }
 
 
