@@ -390,11 +390,15 @@ h2{
 
 img{
     width: 100%;
+    display: block;
 }
 
 
 .description {
-    color:#01cdfe
+    color:#ffffff;
+    margin: 10%;
+    font-size: 150%;
+    font-family:'Courier'
 }
 
 
@@ -405,13 +409,20 @@ img{
     background-color: #01cdfe;
 }
 
-.flex_centre{
+.two_photo_flex {
+    display: flex;
+    padding:0%;
+    align-items: center;
+}
+
+.flex_one{
     flex: 1;
 }
 
-.flex_side{
-    flex: 1;
+.flex_two{
+    flex: 2;
 }
+
 
 #left_palm{
     transform: scale(0.7,0.7);
@@ -421,3 +432,6 @@ img{
     transform: scale(-0.7,0.7); 
 }
 
+#neon_nucleus{
+    transform: scale(0.6,0.6);
+}
