@@ -433,6 +433,14 @@ img{
     font-family: 'Audiowide';
 }
 
+.align_right{
+    text-align: right;
+}
+
+.daisy_scale{
+    transform: scale(0.2,0.2)
+}
+
 
 #left_palm{
     transform: scale(0.7,0.7);
